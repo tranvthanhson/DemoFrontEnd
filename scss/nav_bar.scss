@@ -6,15 +6,30 @@
 			margin: 0;
 			li {
 				display: inline;
-				.item {
-					line-height: 50px;
-					padding: 0 25px;
+				.item1 {
+					float: left;
+					line-height: 40px;
+					padding: 9px 25px;
 					color: #FFF;
 					font-size: 18px;
 					font-weight: bold;
 					text-decoration: none;
-					border-right: 3px solid #ecf0f1;
+					border-right: 2px solid #ecf0f1;
+					border-left: none;
 				}
+
+				.item1:hover {
+					color: #4CCFC1;
+					background-color: #ecf0f1;
+				}
+				
+
+			}
+			li:last-child {
+				.item1{
+					border: none;
+				}
+
 			}
 		}
 	}
