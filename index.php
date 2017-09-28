@@ -15,7 +15,7 @@
 		<div class="container">
 			<div class="header-component">
 				<div class="logo">
-					<h2 class="title">Aditii</h2>
+					<img src="img/Front-End-Test_03.png" alt="">
 				</div>
 				<div class="search-component">
 					<input type="text">
@@ -23,9 +23,9 @@
 				</div>
 				<div class="cart-group">
 					<div class="cart-img">
-						<img src="img/cart.png" alt="">
+						<img src="img/Front-End-Test_05.png" alt="">
 					</div>
-					<div class="money">
+					<div class="price">
 						$300
 					</div>
 				</div>
@@ -62,7 +62,7 @@
 				<div class="carousel-inner" style="background-color: #3EC1B7;">
 					<div class="item active" style="background-color: #3EC1B7;">
 						<div class="img-view" style="background-color: #3EC1B7;">
-							<img src="img/shirts-1.png" alt="">
+							<img src="img/Front-End-Test_10.png" alt="">
 						</div>
 						<div class="info-details">
 							<h1>COWHIDE STANDARD CREW</h1>
@@ -73,7 +73,7 @@
 
 					<div class="item" style="background-color: #3EC1B7; width: 100%;">
 						<div class="img-view">
-							<img src="img/shoes-1.png" alt="">
+							<img src="img/Front-End-Test_14.png" alt="">
 						</div>
 						<div class="info-details">
 							<h1>COWHIDE STANDARD CREW</h1>
@@ -84,7 +84,7 @@
 
 					<div class="item" style="background-color: #3EC1B7;">
 						<div class="img-view">
-							<img src="img/shoes-2.png" alt="">
+							<img src="img/Front-End-Test_16.png" alt="">
 						</div>
 						<div class="info-details">
 							<h1>COWHIDE STANDARD CREW</h1>
@@ -119,7 +119,7 @@
 				<div class="container">
 					<div class="branded-item">
 						<div class="img-view">
-							<img src="img/shoes-1.png" alt="">
+							<img src="img/Front-End-Test_14.png" alt="">
 						</div>
 						<div class="info-details">
 							<div class="title">
@@ -132,7 +132,7 @@
 					</div>
 					<div class="branded-item">
 						<div class="img-view">
-							<img src="img/shoes-5.png" alt="">
+							<img src="img/Front-End-Test_16.png" alt="">
 						</div>
 						<div class="info-details">
 							<div class="title">
@@ -145,7 +145,7 @@
 					</div>
 					<div class="branded-item">
 						<div class="img-view">
-							<img src="img/shoes-2.png" alt="">
+							<img src="img/Front-End-Test_18.png" alt="">
 						</div>
 						<div class="info-details">
 							<div class="title">
@@ -167,7 +167,7 @@
 				<div class="container">
 					<div class="branded-item">
 						<div class="img-view">
-							<img src="img/shoes-3.png" alt="">
+							<img src="img/Front-End-Test_24.png" alt="">
 						</div>
 						<div class="info-details">
 							<div class="title">BRANDED SHOES</div>						
@@ -183,7 +183,7 @@
 					</div>
 					<div class="branded-item">
 						<div class="img-view">
-							<img src="img/shoes-4.png" alt="">
+							<img src="img/Front-End-Test_26.png" alt="">
 						</div>
 						<div class="info-details">
 							<div class="title">BRANDED SHOES</div>						
@@ -199,7 +199,7 @@
 					</div>
 					<div class="branded-item">
 						<div class="img-view">
-							<img src="img/shoes-1.png" alt="">
+							<img src="img/Front-End-Test_28.png" alt="">
 						</div>
 						<div class="info-details">
 							<div class="title">BRANDED SHOES</div>						
@@ -215,7 +215,7 @@
 					</div>
 					<div class="branded-item">
 						<div class="img-view">
-							<img src="img/shoes-5.png" alt="">
+							<img src="img/Front-End-Test_34.png" alt="">
 						</div>
 						<div class="info-details">
 							<div class="title">BRANDED SHOES</div>						
@@ -231,7 +231,23 @@
 					</div>
 					<div class="branded-item">
 						<div class="img-view">
-							<img src="img/shoes-2.png" alt="">
+							<img src="img/Front-End-Test_36.png" alt="">
+						</div>
+						<div class="info-details">
+							<div class="title">BRANDED SHOES</div>						
+							<div class="group">
+								<div class="price">
+									$300
+								</div>
+								<button>
+									BUY NOW
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="branded-item">
+						<div class="img-view">
+							<img src="img/Front-End-Test_37.png" alt="">
 						</div>
 						<div class="info-details">
 							<div class="title">BRANDED SHOES</div>						
