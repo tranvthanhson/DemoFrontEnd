@@ -200,6 +200,8 @@
   background: transparent; }
 #myCarousel .active {
   display: inline-block; }
+#myCarousel .item {
+  background-color: #3EC1B7; }
 
 .feature-products {
   background-color: #3EC1B7;

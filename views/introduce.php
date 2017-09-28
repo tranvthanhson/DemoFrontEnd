@@ -8,9 +8,9 @@
 		</ol>
 
 		<!-- Wrapper for slides -->
-		<div class="carousel-inner" style="background-color: #3EC1B7;">
-			<div class="item active" style="background-color: #3EC1B7;">
-				<div class="img-view" style="background-color: #3EC1B7;">
+		<div class="carousel-inner">
+			<div class="item active">
+				<div class="img-view">
 					<img src="img/shirts-1.png" alt="">
 				</div>
 				<div class="info-details">
@@ -20,9 +20,9 @@
 				</div>
 			</div>
 
-			<div class="item" style="background-color: #3EC1B7; width: 100%;">
+			<div class="item">
 				<div class="img-view">
-					<img src="img/shoes-1.png" alt="">
+					<img src="img/shirts-2.png" alt="">
 				</div>
 				<div class="info-details">
 					<h1>COWHIDE STANDARD CREW</h1>
@@ -31,7 +31,7 @@
 				</div>
 			</div>
 
-			<div class="item" style="background-color: #3EC1B7;">
+			<div class="item">
 				<div class="img-view">
 					<img src="img/shoes-2.png" alt="">
 				</div>
