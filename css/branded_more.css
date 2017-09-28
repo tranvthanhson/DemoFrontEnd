@@ -1,0 +1,43 @@
+.branded-more {
+  background-color: #FFF;
+  padding: 0 200px 40px 200px; }
+  .branded-more .container {
+    display: flex;
+    flex-wrap: wrap; }
+    .branded-more .container .branded-item {
+      border: 2px solid #ecf0f1;
+      border-bottom: 10px solid #3CC395;
+      margin: 50px 30px 0 30px;
+      padding: 20px;
+      width: 20%; }
+      .branded-more .container .branded-item .img-view {
+        width: 180px;
+        height: 180px; }
+        .branded-more .container .branded-item .img-view img {
+          width: 100%;
+          height: 100%; }
+      .branded-more .container .branded-item .info-details {
+        padding-top: 20px;
+        color: #95a5a6;
+        font-weight: bold;
+        font-size: 20px; }
+        .branded-more .container .branded-item .info-details .title {
+          text-align: center; }
+        .branded-more .container .branded-item .info-details .group {
+          width: 90%;
+          margin: 10px auto;
+          display: flex; }
+          .branded-more .container .branded-item .info-details .group .price {
+            padding: 0 8px; }
+          .branded-more .container .branded-item .info-details .group button {
+            background-color: #3CC395;
+            border: 1px solid #3CC395;
+            color: #FFF;
+            font-size: 16px;
+            padding: 4px 8px;
+            border-radius: 4px; }
+    .branded-more .container .branded-item:hover {
+      cursor: pointer;
+      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1); }
+
+/*# sourceMappingURL=branded_more.css.map */

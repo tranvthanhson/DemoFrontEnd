@@ -1,0 +1,322 @@
+* {
+  box-sizing: border-box; }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto; }
+  .slideshow-container img {
+    height: 300px;
+    width: 300px; }
+
+.mySlides {
+  display: none; }
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0; }
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center; }
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0; }
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; }
+
+.active, .dot:hover {
+  background-color: #717171; }
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Helvetica Neue", Arial, sans-serif; }
+
+.body {
+  background-color: #3EC1B7; }
+
+.carousel {
+  width: 100vw; }
+  .carousel .active {
+    display: flex; }
+
+.right.carousel-control, .left.carousel-control {
+  background: transparent; }
+
+.header {
+  background-color: #FFF; }
+  .header .container .header-component {
+    width: 80%;
+    margin: 0 auto !important;
+    font-size: 20px;
+    display: flex; }
+    .header .container .header-component .logo {
+      flex: 1; }
+      .header .container .header-component .logo .title {
+        color: #3CC3B5; }
+    .header .container .header-component .search-component {
+      flex: 4;
+      padding: 20px; }
+      .header .container .header-component .search-component input {
+        font-size: 12px;
+        padding: 5px;
+        width: 350px;
+        color: #7f8c8d;
+        font-weight: bold;
+        border: 2px solid #bdc3c7; }
+      .header .container .header-component .search-component button {
+        font-size: 12px;
+        padding: 5px;
+        background-color: #3CC3B5;
+        border: 2px solid #3CC3B5;
+        color: #fff;
+        font-weight: bold; }
+    .header .container .header-component .cart-group {
+      flex: 1;
+      display: flex;
+      padding-top: 20px; }
+      .header .container .header-component .cart-group .cart-img {
+        margin: 0 12px 0 30px;
+        width: 35px;
+        height: 35px; }
+        .header .container .header-component .cart-group .cart-img img {
+          width: 100%;
+          height: 100%; }
+      .header .container .header-component .cart-group .money {
+        color: #7f8c8d;
+        font-weight: bold; }
+
+.nav-bar {
+  background-color: #4CCFC1; }
+  .nav-bar .container ul {
+    padding: 0;
+    margin: 0; }
+    .nav-bar .container ul li {
+      display: inline; }
+      .nav-bar .container ul li .item {
+        line-height: 50px;
+        padding: 0 25px;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        border-right: 3px solid #ecf0f1; }
+
+.introduce {
+  display: flex; }
+  .introduce .img-view {
+    float: left;
+    display: inline-block;
+    margin: 0 100px 0 150px;
+    width: 300px;
+    height: 400px; }
+    .introduce .img-view img {
+      width: 100%;
+      height: 100%; }
+  .introduce .info-details {
+    float: left;
+    display: inline-block;
+    color: #FFF;
+    width: 500px; }
+    .introduce .info-details h1 {
+      font-weight: bold;
+      font-size: 60px; }
+    .introduce .info-details p {
+      font-size: 17px; }
+    .introduce .info-details button {
+      margin-top: 10px;
+      background-color: #3EC1B7;
+      border: 3px solid #FFF;
+      border-radius: 10px;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 20px; }
+
+#myCarousel .carousel-indicators {
+  bottom: 4px; }
+#myCarousel .carousel-inner {
+  padding: 25px 0; }
+#myCarousel .right.carousel-control, #myCarousel .left.carousel-control {
+  background: transparent; }
+#myCarousel .active {
+  display: inline-block; }
+
+.feature-products {
+  background-color: #3EC1B7;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px; }
+
+.branded-more {
+  background-color: #FFF;
+  padding: 0 200px 40px 200px; }
+  .branded-more .container {
+    display: flex;
+    flex-wrap: wrap; }
+    .branded-more .container .branded-item {
+      border: 2px solid #ecf0f1;
+      border-bottom: 10px solid #3CC395;
+      margin: 50px 30px 0 30px;
+      padding: 20px;
+      width: 20%; }
+      .branded-more .container .branded-item .img-view {
+        width: 180px;
+        height: 180px; }
+        .branded-more .container .branded-item .img-view img {
+          width: 100%;
+          height: 100%; }
+      .branded-more .container .branded-item .info-details {
+        padding-top: 20px;
+        color: #95a5a6;
+        font-weight: bold;
+        font-size: 20px; }
+        .branded-more .container .branded-item .info-details .title {
+          text-align: center; }
+        .branded-more .container .branded-item .info-details .group {
+          width: 90%;
+          margin: 10px auto;
+          display: flex; }
+          .branded-more .container .branded-item .info-details .group .price {
+            padding: 0 8px; }
+          .branded-more .container .branded-item .info-details .group button {
+            background-color: #3CC395;
+            border: 1px solid #3CC395;
+            color: #FFF;
+            font-size: 16px;
+            padding: 4px 8px;
+            border-radius: 4px; }
+    .branded-more .container .branded-item:hover {
+      cursor: pointer;
+      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1); }
+
+.footer {
+  color: #FFF; }
+  .footer .linking-group {
+    background-color: #3CC3B5; }
+    .footer .linking-group .container {
+      padding: 20px 120px 40px 120px;
+      display: flex; }
+      .footer .linking-group .container .linking-item {
+        margin: 0 auto; }
+        .footer .linking-group .container .linking-item .title {
+          font-size: 22px;
+          font-weight: bold;
+          padding: 12px 0; }
+        .footer .linking-group .container .linking-item .link-detail {
+          font-size: 15px;
+          padding: 3px 0; }
+        .footer .linking-group .container .linking-item .link-detail:hover {
+          cursor: pointer; }
+  .footer .copy-right {
+    background-color: #2DA89B;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 0; }
+
+.branded-group {
+  background-color: #FFF; }
+  .branded-group .container {
+    display: flex; }
+    .branded-group .container .branded-item {
+      padding: 20px 20px 20px 40px;
+      flex: 1;
+      display: flex;
+      border-right: 2px solid #bdc3c7; }
+      .branded-group .container .branded-item .img-view {
+        width: 100px;
+        height: 100px; }
+        .branded-group .container .branded-item .img-view img {
+          width: 100%;
+          height: 100%; }
+      .branded-group .container .branded-item .info-details {
+        padding: 20px;
+        font-weight: bold; }
+        .branded-group .container .branded-item .info-details .title {
+          color: #95a5a6;
+          font-size: 18px; }
+        .branded-group .container .branded-item .info-details button {
+          color: #FFF;
+          background-color: #3CC395;
+          border: 1px solid #3CC395;
+          font-size: 15px;
+          padding: 4px 8px;
+          border-radius: 4px; }
+    .branded-group .container .branded-item:last-child {
+      border: none; }
+    .branded-group .container .branded-item:hover {
+      cursor: pointer; }
+
+#myCarousel1 {
+  position: relative; }
+  #myCarousel1 .glyphicon-chevron-left {
+    position: absolute;
+    left: -50px; }
+  #myCarousel1 .glyphicon-chevron-right {
+    position: absolute;
+    right: -50px; }
+  #myCarousel1 .item {
+    background-color: #FFF; }
+
+/*# sourceMappingURL=main.css.map */

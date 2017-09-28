@@ -1,0 +1,40 @@
+.introduce {
+  display: flex; }
+  .introduce .img-view {
+    float: left;
+    display: inline-block;
+    margin: 0 100px 0 150px;
+    width: 300px;
+    height: 400px; }
+    .introduce .img-view img {
+      width: 100%;
+      height: 100%; }
+  .introduce .info-details {
+    float: left;
+    display: inline-block;
+    color: #FFF;
+    width: 500px; }
+    .introduce .info-details h1 {
+      font-weight: bold;
+      font-size: 60px; }
+    .introduce .info-details p {
+      font-size: 17px; }
+    .introduce .info-details button {
+      margin-top: 10px;
+      background-color: #3EC1B7;
+      border: 3px solid #FFF;
+      border-radius: 10px;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 20px; }
+
+#myCarousel .carousel-indicators {
+  bottom: 4px; }
+#myCarousel .carousel-inner {
+  padding: 25px 0; }
+#myCarousel .right.carousel-control, #myCarousel .left.carousel-control {
+  background: transparent; }
+#myCarousel .active {
+  display: inline-block; }
+
+/*# sourceMappingURL=introduce.css.map */

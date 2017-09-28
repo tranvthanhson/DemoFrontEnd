@@ -1,0 +1,32 @@
+.footer {
+	color: #FFF;
+	.linking-group {
+		background-color: #3CC3B5;
+		.container {
+			padding: 20px 120px 40px 120px;
+			display: flex;
+			.linking-item {
+				margin: 0 auto;
+				.title {
+					font-size: 22px;
+					font-weight: bold;
+					padding: 12px 0;
+				}
+				.link-detail{
+					font-size: 15px;
+					padding: 3px 0;
+				}
+				.link-detail:hover {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	.copy-right {
+		background-color: #2DA89B;
+		text-align: center;
+		font-size: 14px;
+		font-weight: bold;
+		padding: 10px 0;
+	}
+}
