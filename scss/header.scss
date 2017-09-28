@@ -8,8 +8,11 @@
 			display: flex;
 			.logo {
 				flex: 1;
-				.title {
-					color: #3CC3B5;
+				// .title {
+				// 	color: #3CC3B5;
+				// }
+				img {
+					padding: 12px;
 				}
 			}
 
@@ -50,6 +53,7 @@
 				.money {
 					color: #7f8c8d;
 					font-weight: bold;
+					margin-top: 5px;
 				}
 			}
 		}

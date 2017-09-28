@@ -2,7 +2,8 @@
 	<div class="container">
 		<div class="header-component">
 			<div class="logo">
-				<h2 class="title">Aditii</h2>
+				<img src="img/Logo.png" alt="">
+				<!-- <h2 class="title">Aditii</h2> -->
 			</div>
 			<div class="search-component">
 				<input type="text">
